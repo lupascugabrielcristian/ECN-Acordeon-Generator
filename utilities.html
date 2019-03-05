@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">	
+	</head>
+
+	<body>
+
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col" style="padding: 20px">
+					<p>Titlul</p>
+					<input type="text" id="title_1" style="width: 100%;"></input>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col" style="padding: 20px">
+					<p>Continut</p>
+					<textarea id="content_1" style="width: 100%; min-height: 100px;" id="output"></textarea>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<div type="button" class="btn btn-sm" onClick="addContent()">Adauga la acordeon</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col" style="padding: 20px">
+					<h4>Acordeon</h4>
+					<textarea style="width: 100%; min-height: 150px;" id="output"></textarea>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="scripts.js"></script>
+	</body>
+</html>
